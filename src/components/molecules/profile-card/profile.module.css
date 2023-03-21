@@ -1,0 +1,23 @@
+.profile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    padding: 20px 12px;
+}
+
+.profile > p{
+    color: rgb(128,128,128);
+    font-size: 26px;
+    margin: 15px;
+}
+
+.profile > img {
+    border-radius: 5px;
+    height: 190.5px;
+    width: 190.5px;
+}
+
+.profile > img:hover{
+    border: 3px solid #fff;
+}
