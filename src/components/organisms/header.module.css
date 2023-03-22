@@ -1,0 +1,34 @@
+.header{
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 80px;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    box-sizing: border-box;
+    color: #fff;
+    z-index: 99;
+}
+
+.header_left{
+    display: flex;
+    align-items: center;
+}
+
+.header_left > ul {
+    display: flex;
+    list-style: none;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.header_left > ul > li{
+    font-size: 16px;
+}
+
+.header_left > img{
+    height: 60px;
+    width: 150px;
+}

@@ -1,0 +1,16 @@
+
+.popular{
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+    overflow-x: scroll;
+}
+
+.popular::-webkit-scrollbar {
+    display: none;
+  }
+
+.movie_section > h2{ 
+    color: #fff;
+    font-size: 30px;
+}

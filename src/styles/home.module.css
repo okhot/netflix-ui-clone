@@ -1,0 +1,85 @@
+.home{
+    background-color: black;
+}
+
+.home_body {
+    position: relative;
+    height: 100vh;
+    background-size: cover;
+    background-position: top;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    padding-left: 80px;
+    padding-top: 150px;
+}
+
+.home_body > *{
+    position: relative;
+}
+
+.gradient{
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    top: 0;
+    background: rgba(6, 35, 32, 0.2);
+    left: 0;
+}
+
+.movie_details{
+    display: flex;
+    flex-direction: column;
+    max-width: 700px;
+    justify-content: center;
+
+}
+
+.movie_details > p{
+    font-size: 23px;
+    color: #fff;
+    line-height: 120%;
+}
+
+.buttons{
+    padding-bottom: 100px;
+}
+
+.button_left{
+    display: flex;
+    gap: 1rem
+}
+
+.button_play{
+    height: 65px;
+    width: 170px;
+    color: black;
+    background-color: rgb(255,255,255);
+    border: 0px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    cursor: pointer;
+}
+
+.button_info{
+    height: 65px;
+    width: 170px;
+    color: #fff;
+    background-color: rgb(80,81,81);
+    border: 0px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.3rem;
+    z-index: 0.2;
+    cursor: pointer;
+}
