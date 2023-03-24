@@ -3,3 +3,7 @@
     max-height: 165.33px;
     border-radius: 5px;
 }
+
+.card:hover{
+    transform:  scale(1.5);
+}

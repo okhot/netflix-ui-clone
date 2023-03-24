@@ -10,6 +10,7 @@
     box-sizing: border-box;
     color: #fff;
     z-index: 99;
+    font-family: 'Roboto';
 }
 
 .header_left{
@@ -31,4 +32,21 @@
 .header_left > img{
     height: 60px;
     width: 150px;
+}
+
+.heder_right > img{
+    height: 35px;
+    width: 35px;
+    border-radius: 6px;
+    margin-left: 20px;
+}
+
+.heder_right{
+    display: flex;
+    align-items: center;
+}
+
+.yk{
+    display: flex;
+    gap: 1rem;
 }

@@ -12,7 +12,7 @@
     justify-content: center;
     margin: auto;
     padding-left: 80px;
-    padding-top: 150px;
+    padding-top: 280px;
 }
 
 .home_body > *{
@@ -37,13 +37,14 @@
 }
 
 .movie_details > p{
-    font-size: 23px;
+    font-size: 18px;
     color: #fff;
     line-height: 120%;
+    font-family: 'Roboto';
 }
 
 .buttons{
-    padding-bottom: 100px;
+    padding-bottom: 180px;
 }
 
 .button_left{

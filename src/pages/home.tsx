@@ -4,17 +4,18 @@ import React, { useEffect, useState } from 'react'
 import { FiPlay, FiInfo } from "react-icons/fi";
 import MovieCard from '@/components/organisms/movie-card/movie-card';
 import MovieSection from '@/components/templates/movie-section/movie-section';
+import InTheathers from '@/components/templates/in-theater/in-theaters';
 
 export default function HomePage() {
 
     return (
         <div className={style.home}>
             <Header />
-            <div className={style.home_body} style={{ backgroundImage: `url('https://www.themoviedb.org/t/p/original/ovM06PdF3M8wvKb06i4sjW3xoww.jpg')` }}>
+            <div className={style.home_body} style={{ backgroundImage: `url('https://www.themoviedb.org/t/p/original/h8gHn0OzBoaefsYseUByqsmEDMY.jpg')` }}>
                 <div className={style.gradient}></div>
                 <div className={style.movie_details}>
-                    <img src='https://www.themoviedb.org/t/p/original/8moCzlpkwSjUA7IdrQGPh7BrWVZ.png' alt='image_title' />
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta quos saepe non animi deleniti vitae explicabo excepturi quia, odio culpa mollitia fugit quam accusamus doloremque harum voluptate. Nemo, sunt fugit.</p>
+                    <img src='https://www.themoviedb.org/t/p/original/24dIhRKjLnYRanA2Mo0ycZfObUp.png' alt='image_title' />
+                   <p>With the price on his head ever increasing, John Wick uncovers a path to defeating The High Table. But before he can earn his freedom, Wick must face off against a new enemy with powerful alliances across the globe and forces that turn old friends into foes.</p>
                 </div>
                 <div className={style.buttons}>
                     <div className={style.button_left}>
@@ -23,6 +24,7 @@ export default function HomePage() {
                     </div>
                 </div>
                 <MovieSection />
+                <InTheathers />
             </div>
         </div>
     )
