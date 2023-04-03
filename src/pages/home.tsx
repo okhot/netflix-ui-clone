@@ -12,6 +12,7 @@ export default function HomePage() {
         <div className={style.home}>
             <Header />
             <div className={style.home_body} style={{ backgroundImage: `url('https://www.themoviedb.org/t/p/original/h8gHn0OzBoaefsYseUByqsmEDMY.jpg')` }}>
+                <div className={style.grad}></div>
                 <div className={style.gradient}></div>
                 <div className={style.movie_details}>
                     <img src='https://www.themoviedb.org/t/p/original/24dIhRKjLnYRanA2Mo0ycZfObUp.png' alt='image_title' />

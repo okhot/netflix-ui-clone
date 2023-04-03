@@ -7,7 +7,7 @@ export default function InTheathers() {
 
     const [popular, setPopular] = useState<Movie[]>([])
 
-    const url = "https://api.themoviedb.org/3/trending/all/day?api_key=77acd801b597c4084ac360528aebf8aa&language=en-US/discover/movie?primary_release_date.gte=2014-09-15&primary_release_date.lte=2014-10-22"
+    const url = "https://api.themoviedb.org/3/trending/all/day?api_key=77acd801b597c4084ac360528aebf8aa&language=en-US/discover/movie?with_genres=18&primary_release_year=2022"
 
     useEffect(() => {
         fetchMovies()

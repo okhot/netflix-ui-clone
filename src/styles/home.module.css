@@ -4,7 +4,7 @@
 
 .home_body {
     position: relative;
-    height: 100vh;
+    height: 50vh;
     background-size: cover;
     background-position: top;
     display: flex;
@@ -12,12 +12,14 @@
     justify-content: center;
     margin: auto;
     padding-left: 80px;
-    padding-top: 280px;
+    padding-top: 480px;
 }
 
 .home_body > *{
     position: relative;
 }
+
+
 
 .gradient{
     width: 100%;
@@ -26,6 +28,15 @@
     top: 0;
     background: rgba(6, 35, 32, 0.2);
     left: 0;
+}
+
+.grad{
+    position: absolute;
+    bottom: 0;
+    height: 20vh;
+    width: 100%;
+    padding: 0px 0px;
+    background:rgba(6, 35, 32, 0.9);
 }
 
 .movie_details{
